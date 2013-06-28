@@ -14,7 +14,7 @@ module ActiveAdmin
     end
 
     module TableMethods
-      HANDLE = '&#x2195;'.html_safe
+      HANDLE = '&Xi;'.html_safe
 
       def sortable_handle_column
         column '' do |resource|
